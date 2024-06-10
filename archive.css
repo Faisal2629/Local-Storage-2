@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #00796b;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .container {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  #filter-priority, #filter-status {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  #archive-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #archive-table th, #archive-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #archive-table th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
